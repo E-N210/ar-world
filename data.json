@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.810488, 40.663061]
+      },
+      "properties": {
+        "name": "POI 1",
+        "description": "Description of POI 1",
+        "model": "models/crocodile/scene.gltf",
+        "scale_factor":"20",
+        "clip": "Swim",
+        "audio": "path/to/audio1.mp3",
+        "position_x" : "0",
+        "position_y" : "-150",
+        "position_z" : "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.803614, 40.662567]
+      },
+      "properties": {
+        "name": "POI 2",
+        "description": "Description of POI 2",
+        "model": "models/whale/scene.gltf",
+        "scale_factor":"0.2",
+        "clip": "Swimming",
+        "audio": "path/to/audio2.mp3",
+        "position_x" : "0",
+        "position_y" : "0",
+        "position_z" : "0"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.803614, 41.662567]
+      },
+      "properties": {
+        "name": "POI 2",
+        "description": "Description of POI 2",
+        "model": "models/wolf/scene.gltf",
+        "clip": "01_Run",
+        "scale_factor":"0.2",
+        "audio": "path/to/audio2.mp3",
+        "position_x" : "0",
+        "position_y" : "0",
+        "position_z" : "0"
+      }
+    }
+  ]
+}
