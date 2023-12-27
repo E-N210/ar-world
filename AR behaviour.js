@@ -3,6 +3,7 @@ let closestPOI = null;
 const entity = 0;
 var animated = 0;
     let testEntityAdded = false;
+    let my_light = null;
 
 
 
@@ -53,11 +54,18 @@ if(!testEntityAdded){
       });
         directionalLight.setAttribute("type", "point");
         directionalLight.setAttribute("intensity", "1");
-        directionalLight.setAttribute("position", "0 200 0");
+        directionalLight.setAttribute("position", {
+            x: closestPOI.properties.position_x,
+            y: closestPOI.properties.position_y+200,
+            z: closestPOI.properties.position_z,});
         directionalLight.setAttribute("target", el); // el is your camera element
         directionalLight.setAttribute("shadow", "cast: true; receive: true");
+        directionalLight.setAttribute("castShadow", true)
   //    document.querySelector("a-scene").appendChild(directionalLight);
 
+      let my_light = document.getElementById("my_light")
+      my_light.setAttribute('gps-new-entity-place', {latitude: closestPOI.geometry.coordinates[1],
+      longitude: closestPOI.geometry.coordinates[0]})
       const entity = document.createElement("a-entity");
 
 
