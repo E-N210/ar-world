@@ -16,13 +16,16 @@
       videoTexture: true; debugUIEnabled: false'
       renderer='antialias: true; alpha: true'
       shadow = 'enabled:true; type: basic'>
-    <a-camera id="ar_camera" gps-new-camera='gpsMinDistance: 5'></a-camera>
+    <a-camera id="ar_camera" gps-new-camera='gpsMinDistance: 5'    shadow="near: 0.5; far: 50; cast-soft: true"></a-camera>
 
-    <a-entity light="type:point; intensity: 3; castShadow:true;"gps-new-entity-place="latitude: 40.663061; longitude: 14.810488" position="0 100 0" rotation="0 45 0"></a-entity>
-  <!--  <a-entity material='color: red; side: double' geometry='primitive: box' gps-new-entity-place="latitude: 40.663061; longitude: 14.810488" scale="10 10 10" shadow="cast: true; receive: true"></a-entity>
+      <a-entity light="type:point; intensity: 5; castShadow:true;"gps-new-entity-place="latitude: 40.663061; longitude: 14.810488" position="0 200 0" rotation="0 45 0"></a-entity>
+<!--  <a-entity material='color: red; side: double' geometry='primitive: box' gps-new-entity-place="latitude: 40.663061; longitude: 14.810488" scale="10 10 10" shadow="cast: true; receive: true"></a-entity>
      <a-entity material='color: yellow' geometry='primitive: plane' gps-new-entity-place="latitude: 40.663061; longitude: 14.810488" scale="30 30 30" rotation="-90 0 0" position="0 -30 0" shadow="receive: true"></a-entity>
 -->
 </a-scene>
+
+
+
 
   </body>
 </html>

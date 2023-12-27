@@ -45,17 +45,18 @@ if(!testEntityAdded){
       // Append the <a-asset-item> to <a-asset>
       document.querySelector("a-scene").appendChild(assetItem);
 
-   const directionalLight = document.createElement("a-light");
-   directionalLight.setAttribute('gps-new-entity-place', {
-     latitude: closestPOI.geometry.coordinates[1],
-    longitude: closestPOI.geometry.coordinates[0]
-   });
-     directionalLight.setAttribute("type", "ambient");
-     directionalLight.setAttribute("intensity", "2");
-     directionalLight.setAttribute("position", "0 200 0");
-     directionalLight.setAttribute("target", el); // el is your camera element
-     directionalLight.setAttribute("shadow", "cast: true; receive: true");
-    document.querySelector("a-scene").appendChild(directionalLight);
+
+      const directionalLight = document.createElement("a-light");
+      directionalLight.setAttribute('gps-new-entity-place', {
+        latitude: closestPOI.geometry.coordinates[1],
+        longitude: closestPOI.geometry.coordinates[0]
+      });
+        directionalLight.setAttribute("type", "point");
+        directionalLight.setAttribute("intensity", "1");
+        directionalLight.setAttribute("position", "0 200 0");
+        directionalLight.setAttribute("target", el); // el is your camera element
+        directionalLight.setAttribute("shadow", "cast: true; receive: true");
+  //    document.querySelector("a-scene").appendChild(directionalLight);
 
       const entity = document.createElement("a-entity");
 
@@ -102,7 +103,7 @@ if(!testEntityAdded){
               });
               ground_terrain.setAttribute("width", 10);
               ground_terrain.setAttribute("height", 10);
-              ground_terrain.setAttribute("material", { src: "transparent3.png", transparent:true, opacity:0.7});
+              ground_terrain.setAttribute("material", { src: "transparent3.png", transparent:true, opacity:0.2});
               ground_terrain.setAttribute("position", {
                     x: closestPOI.properties.position_x,
                     y: closestPOI.properties.position_y,
