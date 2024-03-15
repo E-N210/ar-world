@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get GPS Position</title>
+  <style>
+      #north{
+        position:absolute;
+        top:10%;
+        left:50%;)
+      }
+      
+      #south{
+        position:absolute;
+        top:70%;
+        left:50%;}
+
+      #west{
+        position:absolute;
+        top:40%;
+        left:30%;}
+
+      #east{
+        position:absolute;
+        top:40%;
+        left:70%;}
+
+      #main{position: absolute;
+      left:50%;
+    top:30%}
+  </style>
+</head>
+
+<body>
+  <form id="north">
+    <label for="north">North:</label><br>
+    <input type="number" id="northInput" name="northInput"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <form id="east">
+    <label for="eastInput">East:</label><br>
+    <input type="number" id="eastInput" name="eastInput"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <form id="west">
+    <label for="westInput">West:</label><br>
+    <input type="number" id="westInput" name="westInput"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <form id="south">
+    <label for="southInput">South:</label><br>
+    <input type="number" id="southInput" name="southInput"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="main">
+    <h2>GPS Position</h2>
+    <p id="demo">Click the button to get your GPS position:</p>
+    <button onclick="getLocation()">Get Position</button>
+  </div>
+<script>
+var mylat;
+var mylon;
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  mylat = position.coords.latitude;
+  mylon = position.coords.longitude;
+  document.getElementById("demo").innerHTML = "Latitude: " + mylat + "<br>Longitude: " + mylon;
+}
+
+function calculateDestination(mylat, mylon, distance, bearing) {
+  const earthRadius = 6378137; // Earth's radius in meters
+
+  // Convert latitude and longitude from degrees to radians
+  const lat1 = mylat * Math.PI / 180;
+  const lon1 = mylon * Math.PI / 180;
+
+  // Calculate the destination point
+  const lat2 = Math.asin(Math.sin(lat1) * Math.cos(distance / earthRadius) +
+              Math.cos(lat1) * Math.sin(distance / earthRadius) * Math.cos(bearing));
+  const lon2 = lon1 + Math.atan2(Math.sin(bearing) * Math.sin(distance / earthRadius) * Math.cos(lat1),
+                  Math.cos(distance / earthRadius) - Math.sin(lat1) * Math.sin(lat2));
+
+  // Convert destination latitude and longitude from radians to degrees
+  const destLat = lat2 * 180 / Math.PI;
+  const destLon = lon2 * 180 / Math.PI;
+
+  console.log("GPS POINTS:  ", distance, "meters: ", destLat, destLon);
+}
+
+document.getElementById("north").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting traditionally
+
+  var north_dist = parseFloat(document.getElementById("northInput").value);
+
+  calculateDestination(mylat, mylon, north_dist, 0);
+  document.getElementById("northInput").value = "";
+
+});
+
+document.getElementById("south").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting traditionally
+  var south_dist = parseFloat(document.getElementById("southInput").value);
+  calculateDestination(mylat, mylon, south_dist, 180);
+  document.getElementById("southInput").value = "";
+});
+
+document.getElementById("east").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting traditionally
+  var east_dist = parseFloat(document.getElementById("eastInput").value);
+  calculateDestination(mylat, mylon, east_dist, 90);
+  document.getElementById("eastInput").value = "";
+});
+
+document.getElementById("west").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the form from submitting traditionally
+  var west_dist = parseFloat(document.getElementById("westInput").value);
+  calculateDestination(mylat, mylon, west_dist, 270);
+  document.getElementById("westInput").value = "";
+});
+
+</script>
+
+</body>
+</html>
