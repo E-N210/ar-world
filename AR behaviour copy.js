@@ -63,13 +63,13 @@ window.addEventListener('gps-camera-update-position', async (e) => {
 
             if(additionalElements==0){
               additionalElements=1
-
-            if(feature.properties.text){
+               console.log("Label:", feature.properties.label);
+            if(feature.properties.label){
 
               let textEntity = document.createElement("a-entity");
               textEntity.setAttribute('id', "TextEntity")
               textEntity.setAttribute('gps-new-entity-place', {
-                            latitude: midpoint[0],
+                            latitude: midpoint[0]-0.00002,
                             longitude:  midpoint[1]
                           });
 
@@ -92,6 +92,10 @@ window.addEventListener('gps-camera-update-position', async (e) => {
 
               console.log(feature.properties.name, "has text")
 
+            }
+
+            else {
+              console.log(feature.properties.name, "doesn't have a label.");
             }
 
           }
