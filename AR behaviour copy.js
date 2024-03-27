@@ -205,7 +205,7 @@ function createMyElement (feature){
                 //    console.log(feature)
               //    }
 
-              alert(feature.properties.name, "WAS ADDED")
+            //  alert(feature.properties.name, "WAS ADDED")
             }
 
 
