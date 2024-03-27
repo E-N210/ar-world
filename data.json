@@ -7,111 +7,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.810488, 40.663061]
+        "coordinates": [9.19024530,  45.46418969 ]
       },
       "properties": {
-        "name": "POI 1",
-        "added": false,
-        "description": "Description of POI 1",
-        "path": "models/crocodile/scene.gltf",
-        "type": "gltf",
-        "scale_factor":"20",
-        "clip": "Swim",
-        "clip_speed":0,
-        "audio": "path/to/audio1.mp3",
-        "position":[0,-150,0],
-        "rotation":[0,0,0],
-        "light_position":[1000, 2000, 1000],
-        "crop_dist":"10"
-      }
-    },
-
-
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.803614, 40.662567]
-
-      },
-      "properties": {
-        "name": "POI 2",
-        "added": false,
-        "description": "Description of POI 2",
-        "path": "models/whale/scene.gltf",
-        "type": "gltf",
-        "scale_factor":"0.2",
-        "clip": "Swimming",
-        "clip_speed":0,
-        "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
-        "rotation":[0,0,0],
-        "light_position":[1000, 2000, 1000],
-        "crop_dist":"100"
-      }
-    },
-
-
-
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.803614, 41.662567]
-      },
-      "properties": {
-        "name": "POI 3",
-        "added": false,
-        "description": "Description of POI 2",
-        "path": "models/wolf/scene.gltf",
-        "type": "gltf",
-        "clip": "01_Run",
-        "clip_speed":0,
-        "scale_factor":"0.2",
-        "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
-        "rotation":[0,0,0],
-        "light_position":[1000, 2000, 1000],
-        "crop_dist":"10"
-      }
-    },
-
-
-
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.225014,  45.461592 ]
-      },
-      "properties": {
-        "name": "POI 4",
-        "added": false,
-        "description": "Description of POI 2",
-        "path": "models/man2/scene.gltf",
-        "type": "gltf",
-        "clip": "01_Run",
-        "clip_speed":0,
-        "scale_factor":"0.01",
-        "audio": "path/to/audio2.mp3",
-        "position":[0,-10,0],
-        "rotation":[0,0,0],
-        "light_position":[1000, 2000, 1000],
-        "crop_dist":"1",
-        "behaviour":"look-at1"
-      }
-    },
-
-
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.225121591058134,  45.46146343937137 ]
-      },
-      "properties": {
-        "name": "POI 5N",
-        "text":"HELLO WORLD!",
+        "name": "HELLO WORLD MILAN",
+        "label":"HELLO WORLD!",
         "font_name":"#optimerBoldFont",
         "font_path":"./fonts/Honk_Regular.json",
         "text_Coordinates": [9.2261988,  45.461688831528406 ],
@@ -126,35 +26,36 @@
         "position":[0,10,0],
         "rotation":[30,0,0],
         "light_position":[1000, 2000, 1000],
-        "crop_dist":"5",
+        "crop_dist":"50",
         "behaviour":"look-at1"
       }
     },
 
-
-
-
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.2242256,  45.4615232 ]
+        "coordinates": [9.19024530,  45.46418969 ]
       },
       "properties": {
-        "name": "whale0",
+        "name": "HELLO WORLD ROME",
+        "label":"HELLO WORLD!",
+        "font_name":"#optimerBoldFont",
+        "font_path":"./fonts/Honk_Regular.json",
+        "text_Coordinates": [12.49150859,  41.89044346 ],
         "added": false,
         "description": "Description of POI 2",
-        "path": "models/whale/scene.gltf",
+        "path": "models/earth/scene.gltf",
         "type": "gltf",
-        "scale_factor":"0.1",
+        "clip": "Base Stack",
+        "clip_speed":3,
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
-        "rotation":[0,0,0],
+        "position":[0,10,0],
+        "rotation":[30,0,0],
         "light_position":[1000, 2000, 1000],
-        "crop_dist":"5",
-        "behaviour":"upscale",
-        "clip": "Swimming",
-        "clip_speed":0
+        "crop_dist":"150",
+        "behaviour":"look-at1"
       }
     },
 
@@ -162,23 +63,27 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.16343972668406,  45.44939468199744 ]
+        "coordinates": [-0.12147474,  51.50251984 ]
       },
       "properties": {
-        "name": "whale1",
+        "name": "HELLO WORLD LONDON",
+        "label":"HELLO WORLD!",
+        "font_name":"#optimerBoldFont",
+        "font_path":"./fonts/Honk_Regular.json",
+        "text_Coordinates": [2.29622431,  48.85720210 ],
         "added": false,
         "description": "Description of POI 2",
-        "path": "models/whale/scene.gltf",
+        "path": "models/earth/scene.gltf",
         "type": "gltf",
-        "scale_factor":"0.1",
+        "clip": "Base Stack",
+        "clip_speed":3,
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
-        "rotation":[0,0,0],
+        "position":[0,10,0],
+        "rotation":[30,0,0],
         "light_position":[1000, 2000, 1000],
-        "crop_dist":"5",
-        "behaviour":"upscale",
-        "clip": "Swimming",
-        "clip_speed":0
+        "crop_dist":"150",
+        "behaviour":"look-at1"
       }
     },
 
@@ -186,17 +91,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.170800,  45.189044 ]
+        "coordinates": [9.19024530,  45.46418969 ]
       },
       "properties": {
-        "name": "Scorpion",
+        "name": "HELLO WORLD PARIS",
+        "label":"HELLO WORLD!",
+        "font_name":"#optimerBoldFont",
+        "font_path":"./fonts/Honk_Regular.json",
+        "text_Coordinates": [9.2261988,  45.461688831528406 ],
         "added": false,
         "description": "Description of POI 2",
-        "path": "models/scorpion/scene.gltf",
+        "path": "models/earth/scene.gltf",
         "type": "gltf",
-        "scale_factor":"200",
+        "clip": "Base Stack",
+        "clip_speed":3,
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
+        "position":[0,10,0],
+        "rotation":[30,0,0],
+        "light_position":[1000, 2000, 1000],
+        "crop_dist":"150",
+        "behaviour":"look-at1"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.350753,  37.392939 ]
+      },
+      "properties": {
+        "name": "Montallegro whale",
+        "added": false,
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "gltf",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[-0.05,0,-0.05],
         "rotation":[0,180,0],
         "light_position":[1000, 2000, 1000],
         "crop_dist":"500",
@@ -209,22 +142,67 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.170800,  45.189044 ]
+        "coordinates": [12.49150859,  40.675360254641184 ]
       },
       "properties": {
-        "name": "Scorpion",
+        "name": "Salerno whale",
         "added": false,
-        "description": "Description of POI 2",
-        "path": "models/scorpion/scene.gltf",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
         "type": "gltf",
-        "scale_factor":"200",
+        "scale_factor":"10",
         "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
+        "position":[-0.05,0,-0.05],
         "rotation":[0,180,0],
         "light_position":[1000, 2000, 1000],
         "crop_dist":"500",
         "clip": "Swimming",
         "clip_speed":0
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.350753,  37.392939 ]
+      },
+      "properties": {
+        "name": "Genova whale",
+        "added": false,
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "gltf",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[-0.05,0,-0.05],
+        "rotation":[0,180,0],
+        "light_position":[1000, 2000, 1000],
+        "crop_dist":"500",
+        "clip": "Swimming",
+        "clip_speed":0
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.22502422,  45.46140289 ]
+      },
+      "properties": {
+        "name": "wlcome message",
+        "added": false,
+        "label":"Wellcome",
+        "font_name":"#optimerBoldFont",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"500"
       }
     }
 

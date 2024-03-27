@@ -86,7 +86,7 @@ window.addEventListener('gps-camera-update-position', async (e) => {
 
               textEntity.setAttribute("look-at","#camera")
                 console.log(feature.properties.text)
-                  textEntity.setAttribute("text-geometry",{value: feature.properties.text, font: feature.properties.font_name})
+                  textEntity.setAttribute("text-geometry",{value: feature.properties.label, font: feature.properties.font_name})
 
                   document.querySelector("a-scene").appendChild(textEntity);
 
@@ -156,36 +156,42 @@ function createMyElement (feature){
                       //FROM HERE YOU SET STUFF ATTRIBUTE
           entity.setAttribute("id",feature.properties.name);
 
+
+                      entity.setAttribute("scale", {
+                                      x: feature.properties.scale_factor,
+                                      y: feature.properties.scale_factor,
+                                      z: feature.properties.scale_factor,
+                                  });
+
+                      entity.setAttribute("position", {
+                                      x: feature.properties.position[0],
+                                      y: feature.properties.position[1],
+                                      z: feature.properties.position[2],
+                                  });
+                      console.log(feature.properties.rotation[0])
+                      entity.setAttribute("rotation", {
+
+                          x: feature.properties.rotation[0],
+                          y: feature.properties.rotation[1],
+                          z: feature.properties.rotation[2],
+                      });
+
+
           if(feature.properties.type=="gltf") {
             entity.setAttribute("gltf-model", assetItemId);
 
-            entity.setAttribute("scale", {
-                            x: feature.properties.scale_factor,
-                            y: feature.properties.scale_factor,
-                            z: feature.properties.scale_factor,
-                        });
-
-            entity.setAttribute("position", {
-                            x: feature.properties.position[0],
-                            y: feature.properties.position[1],
-                            z: feature.properties.position[2],
-                        });
-            console.log(feature.properties.rotation[0])
-            entity.setAttribute("rotation", {
-
-                x: feature.properties.rotation[0],
-                y: feature.properties.rotation[1],
-                z: feature.properties.rotation[2],
-            });
-
             entity.setAttribute("animation-mixer", 'clip:'+feature.properties.clip )
-
-
           }
 
+          else if(feature.properties.type=="text"){
+            entity.setAttribute("look-at","#camera")
+                entity.setAttribute("text-geometry",{value: feature.properties.label, font: feature.properties.font_name})
+
+              }
+
           entity.setAttribute('gps-new-entity-place', {
-                        latitude: feature.geometry.coordinates[1],
-                        longitude: feature.geometry.coordinates[0]
+                        latitude: feature.geometry.coordinates[1]+feature.properties.position[0],
+                        longitude: feature.geometry.coordinates[0]+feature.properties.position[2]
                       });
 
 
@@ -198,6 +204,8 @@ function createMyElement (feature){
                   //    console.log(addedEntityNames)
                 //    console.log(feature)
               //    }
+
+              alert(feature.properties.name, "WAS ADDED")
             }
 
 

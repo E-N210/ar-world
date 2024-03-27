@@ -290,14 +290,52 @@
 
       }
 
+      .maintext{
+
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.75em;
+      font-weight: normal;}
+
+      .maintext .title{
+      text-decoration: underline;}
+
+
+      .maintext .paragraph{
+      display: flex;
+      align-items: flex-start;
+      text-align: left;}
+
     </style>
   </head>
 
   <body>
-  <div id="loading_screen" class="active">
-    <div> We are Loading </br> the Experience</div>
-    <div id ="spinner"></div>
-  </div>
+    <div id="loading_screen" class="active">
+      <div id="loading_message"> We are Loading </br> the Experience</div>
+      <div id ="spinner"></div>
+      <div class="maintext">
+        <div id="help" class="maintext title">If  the loading is taking too long, try one of these</div>
+
+        <div class="maintext paragraph"></br></br>
+
+
+                  <b> If you accessed this link thorugh Instagram</b></br>
+                  1．Tap on the three dots on the top left of your screen</br></br>
+                  2．Tap on "Open in Chrome/Safari"</br></br></br>
+
+          <b>If you are Using Iphone/IOS</b><br>
+            1．Open iOS Settings</br></br>
+            2．Choose Privacy > Location Services > If the Location Services is disabled, turn it on.</br></br>
+            3．Choose Privacy > Location Services > Safari Websites</br></br>
+            4．Choose While Using the App under Allow Location Access</br></br>
+            5．Reload the page on the browser</br></br>
+
+        </div>
+
+    </div>
+    </div>
   <a-scene vr-mode-ui='enabled: false'
       arjs='sourceType: webcam;
       videoTexture: true; debugUIEnabled: false'
@@ -402,6 +440,35 @@
 </div>
 
 <script>
+
+var trouble = 0
+  const elements = document.getElementsByClassName('maintext paragraph');
+    for (let i = 0; i < elements.length; i++) {
+    elements[i].style.display = 'none';
+  }
+
+  document.getElementById("help").addEventListener("click", function(){
+    if (trouble==0){
+    trouble = 1
+    document.getElementById("spinner").style.display= "none"
+    document.getElementById("loading_message").style.display= "none"
+    const elements = document.getElementsByClassName('maintext paragraph');
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.display = 'flex';
+      }
+    }
+    else{
+    trouble = 0
+    document.getElementById("spinner").style.display= "flex"
+    document.getElementById("loading_message").style.display= "flex"
+    const elements = document.getElementsByClassName('maintext paragraph');
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.display = 'none';
+      }
+
+    }
+  })
+
   var info=0
   var currentInfo=0
 
@@ -565,27 +632,10 @@
     }
   })
 
-  async function getList() {
-    const response = await fetch('Placelist.csv');
-    const csvData = await response.text();
-    const rows = csvData.split('\n'); // Split CSV data into rows
 
-    // Process CSV data as needed
-    let minDistance = Number.MAX_VALUE;
-    // Example: Log each row of CSV data
-    rows.forEach(row => {
-        console.log(row);
-        // Example: Split row into columns
-        const columns = row.split(',');
-        // Example: Access specific columns
-        console.log('First column:', columns[0]);
-        console.log('Second column:', columns[1]);
-        // Perform your data processing here
-    });
-}
 
 // Call the function to fetch CSV data
-getList();
+//getList();
 
 
 </script>

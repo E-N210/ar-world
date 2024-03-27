@@ -1,0 +1,44 @@
+{
+  "type": "PlaceCollection",
+  "features": [
+
+
+    {
+      "type": "Feature",
+      "title":"Hello World",
+      "description":"This is the first model added to the project, I've placed it some of the most famous places around the world! If you find yourself in one of them, please give it a try! This is my way to say Welcome to all of my users!",
+      "image":"./Group 16.png",
+      "places":[
+        {"location": "Milan: Dome",
+        "coordinates": [9.19024530,45.46418969]},
+
+        {"location": "Rome: Colosseum",
+        "coordinates": [12.49150859,41.89044346]},
+
+        {"location": "London: Big Ben",
+        "coordinates": [-0.12147474,51.50251984]},
+
+        {"location": "Paris: Eifel Tower",
+         "coordinates": [2.29622431,48.85720210]}
+        ]
+      },
+
+      {
+        "type": "Feature",
+        "title":"Whale",
+        "description":"A wonderful sea creature that will look at you from the coast, this majestic whale will swim in the next to you while you look at the sunset",
+        "image":"./Group 16.png",
+        "places":[
+          {"location": "Salerno: Seafront",
+          "coordinates": [14.77426333,40.67127124]},
+
+          {"location": "Geneve: Seafront",
+          "coordinates": [12.49150859,41.89044346]},
+
+          {"location": "Montallegro: Saside",
+          "coordinates": [-0.12147474,51.50251984]}
+          ]
+        }
+
+    ]
+  }
