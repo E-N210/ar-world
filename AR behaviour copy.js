@@ -184,7 +184,7 @@ function createMyElement (feature){
           if(feature.properties.type=="gltf") {
             entity.setAttribute("gltf-model", assetItemId);
 
-            entity.setAttribute("animation-mixer", 'clip:'+feature.properties.clip )
+            entity.setAttribute("animation-mixer", {clip: feature.properties.clip, timeScale:feature.properties.clip_speed} )
           }
 
           else if(feature.properties.type=="text"){

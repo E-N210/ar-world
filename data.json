@@ -48,7 +48,7 @@
         "path": "models/earth/scene.gltf",
         "type": "gltf",
         "clip": "Base Stack",
-        "clip_speed":3,
+        "clip_speed":7.5,
         "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
@@ -221,7 +221,7 @@
       "properties": {
         "name": "wlcome message",
         "added": false,
-        "label":"Wellcome",
+        "label":"Welcome",
         "font_name":"#optimerBoldFont",
         "description": "whale accessible from Montallegro AG Italy",
         "path": "models/whale/scene.gltf",
