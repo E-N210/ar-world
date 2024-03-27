@@ -35,6 +35,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.22503011,  45.46184643]
+      },
+      "properties": {
+        "name": "HELLO WORLD MILAN test",
+        "label":"HELLO WORLD!",
+        "font_name":"#optimerBoldFont",
+        "font_path":"./fonts/Honk_Regular.json",
+        "text_Coordinates": [9.2261988,  45.461688831528406 ],
+        "added": false,
+        "description": "Description of POI 2",
+        "path": "models/earth/scene.gltf",
+        "type": "gltf",
+        "clip": "Base Stack",
+        "clip_speed":3,
+        "scale_factor":"5",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,10,0],
+        "rotation":[30,0,0],
+        "light_position":[1000, 2000, 1000],
+        "crop_dist":"500",
+        "behaviour":"look-at1"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.19024530,  45.46418969 ]
       },
       "properties": {
