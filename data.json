@@ -21,7 +21,7 @@
         "type": "gltf",
         "clip": "Base Stack",
         "clip_speed":3,
-        "scale_factor":"5",
+        "scale_factor":"10",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
         "rotation":[30,0,0],
@@ -49,7 +49,7 @@
         "type": "gltf",
         "clip": "Base Stack",
         "clip_speed":7.5,
-        "scale_factor":"5",
+        "scale_factor":"20",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
         "rotation":[30,0,0],
@@ -232,7 +232,715 @@
         "rotation":[0,0,0],
         "crop_dist":"500"
       }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732096421029775,  45.83925209732755 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1",
+        "added": false,
+        "label":"Taci. \nSu le soglie del bosco  \nnon odo parole che dici umane; ",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732161649219664,  45.83956702888068 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2",
+        "added": false,
+        "label":" ma odo parole più nuove \nche parlano gocciole e foglie lontane ",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732296394106393,  45.84004710112326 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3",
+        "added": false,
+        "label":"Ascolta. \nPiove dalle nuvole sparse.\nPiove su le tamerici salmastre ed arse, ",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.73222224582216,  45.840483923379495 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 4",
+        "added": false,
+        "label":"piove sui pini \nscagliosi ed irti,\npiove su i mirti divini,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732139734949466,  45.84087301526312 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 5",
+        "added": false,
+        "label":"su le ginestre fulgenti\ndi fiori accolti,\nsu i ginepri folti \ndi coccole aulenti,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.73199915769339,  45.84117990103354 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 6",
+        "added": false,
+        "label":"piove su i nostri volti silvani, \npiove su le nostre mani ignude,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732141686220371,  45.84158398562927 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 7",
+        "added": false,
+        "label":"su i nostri vestimenti leggeri,\nsu i freschi pensieri\nche l'anima schiude novella,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732217464137232,  45.841863441774294 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 8",
+        "added": false,
+        "label":"su la favola bella \nche ieri t'illuse, \nche oggi m'illude,\no Ermione.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7322701055592935,  45.842517696477486 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_1",
+        "added": false,
+        "label":"Odi? \nLa pioggia cade\nsu la solitaria verdura.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7324386653228805,  45.84278670661896 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_2",
+        "added": false,
+        "label":"con un crepitio che dura \ne varia nell'aria secondo le fronde\npiù rade, men rade.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732418637995604,  45.84302418253449 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_3",
+        "added": false,
+        "label":"Ascolta. \nRisponde al pianto \nil canto delle cicale \nche il pianto australe non impaura,\nné il ciel cinerino.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[7.732237877429848,  45.843226793591086 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_4",
+        "added": false,
+        "label":"E il pino ha un suono, \ne il mirto altro suono, \ne il ginepro altro ancora, \nstromenti diversi \nsotto innumerevoli dita.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732141235926928,  45.84346380457109 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_5",
+        "added": false,
+        "label":"E immensi noi siam \nnello spirito silvestre,\nd'arborea vita viventi;",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732254345296359,  45.84366333694959 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_6",
+        "added": false,
+        "label":"e il tuo volto ebro\nè molle di pioggia come una foglia,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732340832318982,  45.84377929904787 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_7",
+        "added": false,
+        "label":"e le tue chiome auliscono \ncome le chiare ginestre,,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732328909061721,  45.843876393855076 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 1_8",
+        "added": false,
+        "label":"o creatura terrestre\nche hai nome\nErmione.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732509002430339,  45.84402946125949 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_1",
+        "added": false,
+        "label":"Ascolta, \nAscolta. L'accordo delle aeree cicale\na poco a poco più sordo\nsi fa sotto il pianto che cresce;",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732555064039346,  45.844198142235804 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_2",
+        "added": false,
+        "label":"ma un canto vi si mesce\npiù roco che di laggiù sale,\ndall'umida ombra remota.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732637919103316,  45.84447152334529 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_3",
+        "added": false,
+        "label":"Più sordo e più fioco s'allenta, si spegne.\nSola una nota ancor trema, si spegne,\nrisorge, trema, si spegne.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732919611431619,  45.84484747689624 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_4",
+        "added": false,
+        "label":"Non s’ode voce del mare.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733106016714828,  45.84516034392172 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_5",
+        "added": false,
+        "label":"Or s’ode su tutta la fronda crosciare\nl'argentea pioggia che monda,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733120626154366,  45.84552689380194 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_6",
+        "added": false,
+        "label":" il croscio che varia\nsecondo la fronda\npiù folta, men folta.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733092542530979,  45.845940708264415 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_7",
+        "added": false,
+        "label":"Ascolta. \nLa figlia dell'aria è muta: \nma la figlia del limo lontana, la rana,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733054799927697,  45.846393489321486 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 2_8",
+        "added": false,
+        "label":"canta nell'ombra più fonda,\nchi sa dove, chi sa dove!\nE piove su le tue ciglia,\nErmione.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733017838975957,  45.846632051574154 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_1",
+        "added": false,
+        "label":"Piove su le tue ciglia nere \nsì che par tu pianga \nma di piacere; ",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.732873507203384,  45.8469520718776 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_2",
+        "added": false,
+        "label":" non bianca\nma quasi fatta virente,\npar da scorza tu esca. ",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733006077479421,  45.847314409656924 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_3",
+        "added": false,
+        "label":"E tutta la vita è in noi fresca aulente,\nil cuor nel petto è come pescaintatta,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7331286418585465,  45.84758897673162 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_4",
+        "added": false,
+        "label":"tra le palpebre gli occhi\nson come polle tra l'erbe,\ni denti negli alveoli\nson come mandorle acerbe.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733457862060367,  45.847845705682495 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_5",
+        "added": false,
+        "label":"E andiam di fratta in fratta, or congiunti or disciolti\n(e il verde vigor rude ci allaccia i melleoli\nc'intrica i ginocchi) chi sa dove, chi sa dove!",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.73366392067246,  45.84807051131245 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_6",
+        "added": false,
+        "label":"piove su i nostri volti silvani, \npiove su le nostre mani ignude,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.733941875059007,  45.848345395772405]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_7",
+        "added": false,
+        "label":"su i nostri vestimenti leggeri,\nsu i freschi pensieri\nche l'anima schiude novella,",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.734081601384877,  45.84858165738756 ]
+      },
+      "properties": {
+        "name": "pioggia nel pineto 3_8",
+        "added": false,
+        "label":"su la favola bella \nche ieri t'illuse, \nche oggi m'illude,\no Ermione.",
+        "font_name":"#RobotoThinItalic",
+        "description": "whale accessible from Montallegro AG Italy",
+        "path": "models/whale/scene.gltf",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
     }
+
+
+
+
 
 
 

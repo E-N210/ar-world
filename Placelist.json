@@ -38,7 +38,18 @@
           {"location": "Montallegro: Saside",
           "coordinates": [-0.12147474,51.50251984]}
           ]
-        }
+        },
+
+        {
+          "type": "Feature",
+          "title":"Pioggia Nel Pineto",
+          "description":"One of the most famous XX Century italian poetries will accompain you during this walk in the woods,",
+          "image":"./Group 16.png",
+          "places":[
+            {"location": "Pian Villy, Champoluc, AO: ",
+            "coordinates": [7.732096421029775,  45.83925209732755 ]}
+            ]
+          }
 
     ]
   }

@@ -28,7 +28,14 @@
 
     <!-- FONTS -->
     <script src="./fonts/Honk_Regular.json"></script>
+    <script src="./fonts/Roboto Thin_Italic.json"></script>
 
+      <!--  <script src="./fonts/Honk_Regular.json"></script>
+              <script src="./fonts/Honk_Regular.json"></script>
+                  <script src="./fonts/Honk_Regular.json"></script>
+                        <script src="./fonts/Honk_Regular.json"></script>
+                              <script src="./fonts/Honk_Regular.json"></script>
+                            -->
   <style>
 
       #loading_screen.active{position:
@@ -39,7 +46,7 @@
           z-index: 10;
           font-size: 2em;
           font-weight: bold;
-          justify-content: center;
+          justify-content: flex-start;
           font-family: sans-serif;
           text-align: center;
           align-items: center;
@@ -47,7 +54,9 @@
           vertical-align: middle;
           margin-top: 0px;
           margin-bottom: 0px;
-          gap:5vw}
+          gap:5vw;
+          overflow-y: scroll;
+        z-index: 30}
 
       #loading_screen.inactive{
         display: none
@@ -197,13 +206,21 @@
         #POIscreen.inactive{display: none}
 
         #logoBanner{
+          margin-top: 2.5vh;
+          height: 5vh;
+          background-size: contain;
+        }
+
+        #logoBanner_absolute{
           position: absolute;
-          top:2.5%;left:50%;
+          top: 2.5vh;
+          left: 50%;
           transform: translate(-50%,0%);
           height: 5vh;
           background-size: contain;
           z-index: 20
         }
+
 
         .formButton{background-color: rgb(210,210,225);
           opacity: 1;
@@ -300,7 +317,8 @@
       font-weight: normal;}
 
       .maintext .title{
-      text-decoration: underline;}
+      text-decoration: underline;
+      margin-top: 10%}
 
 
       .maintext .paragraph{
@@ -313,6 +331,7 @@
 
   <body>
     <div id="loading_screen" class="active">
+        <img id= logoBanner src="./Group 15.png"></img>
       <div id="loading_message"> We are Loading </br> the Experience</div>
       <div id ="spinner"></div>
       <div class="maintext">
@@ -344,6 +363,7 @@
 
       id="a-scene">
     <a-asset-item id="optimerBoldFont" src="./fonts/Honk_Regular.json"></a-asset-item>
+    <a-asset-item id="RobotoThinItalic" src="./fonts/Roboto Thin_Italic.json"></a-asset-item>
     <a-camera id="camera" gps-new-camera='gpsMinDistance: 2' look-controls mouse-cursor  shadow="near: 0.5; far: 50; cast-soft: true">
       <a-entity cursor="rayOrigin: mouse"></a-entity>
     </a-camera>
@@ -371,6 +391,7 @@
 <!--  USER INTERFACE  -->
 <div id = infobutton>i</div>
 <div id= infoscreen class="inactive">
+
 
   <div id="goleft"><</div>
   <div id=infoscroller>
@@ -414,6 +435,7 @@
 
 <div id= "noPOIscreen" class="active">
 
+
     <p id="alert" class="alert">
       <span style=" font-size: 1.5em; font-weight:normal">
         There is no Content
@@ -439,7 +461,7 @@
 
 </div>
 
-  <img id= logoBanner src="./Group 15.png"></img>
+  <img id= logoBanner_absolute src="./Group 15.png"></img>
 <div id= "POIscreen" class="active">
   CONTENT DETECTED!!</br>
   Look for something around you!

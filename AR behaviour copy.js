@@ -69,7 +69,7 @@ window.addEventListener('gps-camera-update-position', async (e) => {
               let textEntity = document.createElement("a-entity");
               textEntity.setAttribute('id', "TextEntity")
               textEntity.setAttribute('gps-new-entity-place', {
-                            latitude: midpoint[0]-0.00002,
+                            latitude: midpoint[0]-0.00004,
                             longitude:  midpoint[1]
                           });
 
@@ -78,6 +78,13 @@ window.addEventListener('gps-camera-update-position', async (e) => {
                                 y: feature.properties.position[1],
                                 z: 0,
                           });
+
+                          textEntity.setAttribute("scale", {
+                                            x: feature.properties.scale_factor/4,
+                                            y: feature.properties.scale_factor/4,
+                                            z: feature.properties.scale_factor/4,
+                                      });
+
               textEntity.setAttribute("rotation", {
                           x: 0,
                           y: 0,
