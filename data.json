@@ -35,7 +35,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.22503011,  45.46184643]
+        "coordinates": [10.22503011,  45.46184643]
       },
       "properties": {
         "name": "HELLO WORLD MILAN test",
@@ -935,6 +935,28 @@
         "position":[0,0,0],
         "rotation":[0,0,0],
         "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.225271,  45.461562 ]
+      },
+      "properties": {
+        "name": "FROG 4 ALBERTO",
+        "added": false,
+        "path": "models/frog/scene.gltf",
+        "type": "gltf",
+        "clip": "Base Stack",
+        "clip_speed":3,
+        "scale_factor":"5",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,90,0],
+        "light_position":[1000, 2000, 1000],
+        "crop_dist":"5"
       }
     }
 
