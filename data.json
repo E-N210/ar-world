@@ -35,7 +35,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.22503011,  45.46184643]
+        "coordinates": [9.22503011,  45.46184643]
       },
       "properties": {
         "name": "HELLO WORLD MILAN test",
@@ -954,7 +954,7 @@
         "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,0,0],
-        "rotation":[0,-90,0],
+        "rotation":[0,90,0],
         "light_position":[1000, 2000, 1000],
         "crop_dist":"5"
       }

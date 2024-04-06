@@ -46,10 +46,21 @@
           "description":"One of the most famous XX Century italian poetries will accompain you during this walk in the woods,",
           "image":"./Group 16.png",
           "places":[
-            {"location": "Pian Villy, Champoluc, AO: ",
+            {"location": "Pian Villy, Champoluc, AO:  ",
             "coordinates": [7.732096421029775,  45.83925209732755 ]}
             ]
-          }
+          },
+
+          {
+            "type": "Feature",
+            "title":"Frog for Alberto",
+            "description":"I don't know and i never met Alberto, but he is the first person participating to the project he gets a really special thanks for that . He didn't know what to add, so... Here it's a frog my friend",
+            "image":"./Group 16.png",
+            "places":[
+              {"location": "Somewhere:  ",
+              "coordinates": [15.273426,  37.078518 ]}
+              ]
+            },
 
     ]
   }
