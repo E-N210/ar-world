@@ -196,7 +196,10 @@ function createMyElement (feature){
 
           else if(feature.properties.type=="text"){
             entity.setAttribute("look-at","#camera")
-                entity.setAttribute("text-geometry",{value: feature.properties.label, font: feature.properties.font_name})
+                entity.setAttribute("text-geometry",{
+                  value: feature.properties.label,
+                  font: feature.properties.font_name,
+                  align: feature.properties.align})
 
               }
 

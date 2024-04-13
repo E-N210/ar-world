@@ -20,8 +20,8 @@
         "path": "models/earth/scene.gltf",
         "type": "gltf",
         "clip": "Base Stack",
-        "clip_speed":3,
-        "scale_factor":"10",
+        "clip_speed":7.5,
+        "scale_factor":"20",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
         "rotation":[30,0,0],
@@ -104,8 +104,8 @@
         "path": "models/earth/scene.gltf",
         "type": "gltf",
         "clip": "Base Stack",
-        "clip_speed":3,
-        "scale_factor":"5",
+        "clip_speed":7.5,
+        "scale_factor":"20",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
         "rotation":[30,0,0],
@@ -132,8 +132,8 @@
         "path": "models/earth/scene.gltf",
         "type": "gltf",
         "clip": "Base Stack",
-        "clip_speed":3,
-        "scale_factor":"5",
+        "clip_speed":7.5,
+        "scale_factor":"20",
         "audio": "path/to/audio2.mp3",
         "position":[0,10,0],
         "rotation":[30,0,0],
@@ -958,11 +958,186 @@
         "light_position":[1000, 2000, 1000],
         "crop_dist":"5"
       }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202135072261669,  45.51373749189774 ]
+      },
+      "properties": {
+        "name": "Testo per Monny",
+        "added": false,
+        "label":"Trame alle spalle \nMangian la mia carne \nCome dahmer",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202323686046139,  45.514069526623096  ]
+      },
+      "properties": {
+        "name": "Testo per Monny1",
+        "added": false,
+        "label":"Mescolo le carte per scappare \nda un altra parte",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202700454497656,  45.513993415600524]
+      },
+      "properties": {
+        "name": "Testo per Monny2",
+        "added": false,
+        "label":"Cideimi \n dove sto",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202508626891257,  45.51366352523651 ]
+      },
+      "properties": {
+        "name": "Testo per Monny3",
+        "added": false,
+        "label":"Chiedimi \n come sto",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.20270777255114,  45.51378441441761 ]
+      },
+      "properties": {
+        "name": "Testo per Monny4",
+        "added": false,
+        "label":"SOTTO LA POLVERE",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202880734605339,  45.51415115550729]
+      },
+      "properties": {
+        "name": "Testo per Monny5",
+        "added": false,
+        "label":"Gente scomparsa sotto una lastra",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202991660157004,  45.514512970966884 ]
+      },
+      "properties": {
+        "name": "Testo per Monny6",
+        "added": false,
+        "label":"Ma dei colpevoli \nnon c'è più traccia",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.202449873773686,  45.513395891264466 ]
+      },
+      "properties": {
+        "name": "Testo per Monny7",
+        "added": false,
+        "label":"E questa è la memoria che ho",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.20224704126182,  45.51311157508336 ]
+      },
+      "properties": {
+        "name": "Testo per Monny8",
+        "added": false,
+        "label":"E questa è la memoria che io ti do",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"200"
+      }
     }
-
-
-
-
 
 
 
