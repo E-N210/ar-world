@@ -1137,6 +1137,26 @@
         "rotation":[0,0,0],
         "crop_dist":"200"
       }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[ 9.205827, 45.458657]
+      },
+      "properties": {
+        "name": "Bella edgar",
+        "added": false,
+        "label":"BELLA EDGAR :)",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"50"
+      }
     }
 
 
