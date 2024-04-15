@@ -1142,12 +1142,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":[ 9.205827, 45.458657]
+        "coordinates":[ 9.21635134538577, 45.45893193139853]
       },
       "properties": {
         "name": "Pessoa 01",
         "added": false,
-        "label":"BELLA EDGAR :)",
+        "label":"Non mi preoccupo delle rime.\n Raramente ci sono due alberi uguali \n uno accanto all'altro.",
         "font_name":"#RobotoBold",
         "type": "text",
         "scale_factor":"10",
@@ -1162,12 +1162,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":[ 9.205827, 45.458657]
+        "coordinates":[ 9.214648463512859, 45.46054883607347]
       },
       "properties": {
         "name": "Pessoa 02",
         "added": false,
-        "label":"BELLA EDGAR :)",
+        "label":"E ci sono sempre ragioni per emigrare,\n per chi non è costretto a letto",
         "font_name":"#RobotoBold",
         "type": "text",
         "scale_factor":"10",
@@ -1181,12 +1181,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":[ 9.205827, 45.458657]
+        "coordinates":[ 9.216742501052067, 45.4592188925447]
       },
       "properties": {
         "name": "Pessoa 03",
         "added": false,
-        "label":"BELLA EDGAR :)",
+        "label":"Quando mi sveglierò dall'essere sveglio?",
         "font_name":"#RobotoBold",
         "type": "text",
         "scale_factor":"10",
