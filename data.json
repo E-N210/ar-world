@@ -7,10 +7,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.19024530,  45.46418969 ]
+        "coordinates": [10.22503011,  45.46184643]
       },
       "properties": {
-        "name": "HELLO WORLD MILAN",
+        "name": "HELLO WORLD MILAN test",
         "label":"HELLO WORLD!",
         "font_name":"#optimerBoldFont",
         "font_path":"./fonts/Honk_Regular.json",
@@ -26,19 +26,20 @@
         "position":[0,10,0],
         "rotation":[30,0,0],
         "light_position":[1000, 2000, 1000],
-        "crop_dist":"50",
+        "crop_dist":"500",
         "behaviour":"look-at1"
       }
     },
+
 
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.22503011,  45.46184643]
+        "coordinates": [9.19024530,  45.46418969]
       },
       "properties": {
-        "name": "HELLO WORLD MILAN test",
+        "name": "HELLO WORLD MILAN",
         "label":"HELLO WORLD!",
         "font_name":"#optimerBoldFont",
         "font_path":"./fonts/Honk_Regular.json",
@@ -1157,7 +1158,379 @@
         "rotation":[0,0,0],
         "crop_dist":"50"
       }
-    }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[ 9.205827, 45.458657]
+      },
+      "properties": {
+        "name": "Pessoa 01",
+        "added": false,
+        "label":"BELLA EDGAR :)",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"50"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[ 9.205827, 45.458657]
+      },
+      "properties": {
+        "name": "Pessoa 02",
+        "added": false,
+        "label":"BELLA EDGAR :)",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[ 9.205827, 45.458657]
+      },
+      "properties": {
+        "name": "Pessoa 03",
+        "added": false,
+        "label":"BELLA EDGAR :)",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":[ 9.205827, 45.458657]
+      },
+      "properties": {
+        "name": "Pessoa 04",
+        "added": false,
+        "label":"BELLA EDGAR :)",
+        "font_name":"#RobotoBold",
+        "type": "text",
+        "scale_factor":"10",
+        "audio": "path/to/audio2.mp3",
+        "position":[0,0,0],
+        "rotation":[0,0,0],
+        "crop_dist":"50"
+      }
+    },
+
+
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates":[ 9.205827, 45.458657]
+          },
+          "properties": {
+            "name": "Pessoa 06",
+            "added": false,
+            "label":"BELLA EDGAR :)",
+            "font_name":"#RobotoBold",
+            "type": "text",
+            "scale_factor":"10",
+            "audio": "path/to/audio2.mp3",
+            "position":[0,0,0],
+            "rotation":[0,0,0],
+            "crop_dist":"50"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates":[ 9.205827, 45.458657]
+          },
+          "properties": {
+            "name": "Pessoa 07",
+            "added": false,
+            "label":"BELLA EDGAR :)",
+            "font_name":"#RobotoBold",
+            "type": "text",
+            "scale_factor":"10",
+            "audio": "path/to/audio2.mp3",
+            "position":[0,0,0],
+            "rotation":[0,0,0],
+            "crop_dist":"50"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates":[ 9.205827, 45.458657]
+          },
+          "properties": {
+            "name": "Pessoa 08",
+            "added": false,
+            "label":"BELLA EDGAR :)",
+            "font_name":"#RobotoBold",
+            "type": "text",
+            "scale_factor":"10",
+            "audio": "path/to/audio2.mp3",
+            "position":[0,0,0],
+            "rotation":[0,0,0],
+            "crop_dist":"50"
+          }
+        },    {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.205827, 45.458657]
+              },
+              "properties": {
+                "name": "Pessoa 09",
+                "added": false,
+                "label":"BELLA EDGAR :)",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.205827, 45.458657]
+              },
+              "properties": {
+                "name": "Pessoa 10",
+                "added": false,
+                "label":"BELLA EDGAR :)",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.216280103519484, 45.4606558947986]
+              },
+              "properties": {
+                "name": "Pessoa 11",
+                "added": false,
+                "label":"Nessuno sa ciò che vuole. \n Nessuno sa che anima possiede)",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.21615129911638, 45.46038013249851]
+              },
+              "properties": {
+                "name": "Pessoa 12",
+                "added": false,
+                "label":"Il pensiero deve partire dall'irriducibile.",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[9.21544238131152, 45.46030844439823]
+              },
+              "properties": {
+                "name": "Pessoa 13",
+                "added": false,
+                "label":"Mi sono moltiplicato per sentirmi, \n per sentirmi ho dovuto sentire tutto, \n sono strsaripato, non ho fatto altro che traboccarmi",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[9.21550913142168, 45.46077960316045]
+              },
+              "properties": {
+                "name": "Pessoa 14",
+                "added": false,
+                "label":"Il poeta è un fingitore. \n Finge così completamente \n che arriva a fingere  che è dolore \n il dolore che davvero sente",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[9.214937510051922, 45.46096242075299]
+              },
+              "properties": {
+                "name": "Pessoa 15",
+                "added": false,
+                "label":"Fingere è Conoscersi. ",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.217073247841343, 45.46144115365287]
+              },
+              "properties": {
+                "name": "Pessoa 16",
+                "added": false,
+                "label":"Schiavi cardiaci delle stelle, \n abbiamo conquistato il mondo \n prima di alzarci dal letto.",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.215512294933891, 45.46145334846815]
+              },
+              "properties": {
+                "name": "Pessoa 17",
+                "added": false,
+                "label":"Passo e resto, \n come l'Universo",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.21494358399547, 45.46171039751944]
+              },
+              "properties": {
+                "name": "Pessoa 18",
+                "added": false,
+                "label":"Ognuno di noi è più di uno, \n è molti \n è una prolissità di se stesso",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[ 9.215496255407146, 45.46182918306071]
+              },
+              "properties": {
+                "name": "Pessoa 19",
+                "added": false,
+                "label":"Solo nell'illusione della libertà \n La libertà esiste.",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"10",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates":[9.21693155940372,  45.461844281459165]
+              },
+              "properties": {
+                "name": "Pessoa 20",
+                "added": false,
+                "label":"Non sono niente. \n Non sarò mai niente \n Non posso non voler non essere niente, \n  A parte ciò, ho in me tutti i sogni del mondo",
+                "font_name":"#RobotoBold",
+                "type": "text",
+                "scale_factor":"5",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,0,0],
+                "rotation":[0,0,0],
+                "crop_dist":"50"
+              }
+            }
 
 
 

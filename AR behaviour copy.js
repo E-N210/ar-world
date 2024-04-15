@@ -64,7 +64,7 @@ window.addEventListener('gps-camera-update-position', async (e) => {
             if(additionalElements==0){
               additionalElements=1
                console.log("Label:", feature.properties.label);
-            if(feature.properties.label){
+            if(feature.properties.label && feature.properties.type=="gltf"){
 
               let textEntity = document.createElement("a-entity");
               textEntity.setAttribute('id', "TextEntity")
@@ -198,8 +198,7 @@ function createMyElement (feature){
             entity.setAttribute("look-at","#camera")
                 entity.setAttribute("text-geometry",{
                   value: feature.properties.label,
-                  font: feature.properties.font_name,
-                  align: feature.properties.align})
+                  font: feature.properties.font_name})
 
               }
 
