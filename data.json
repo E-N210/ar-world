@@ -217,28 +217,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.21602949,  45.46183287 ]
-      },
-      "properties": {
-        "name": "wlcome message",
-        "added": false,
-        "label":"Welcome",
-        "font_name":"#optimerBoldFont",
-        "description": "whale accessible from Montallegro AG Italy",
-        "path": "models/whale/scene.gltf",
-        "type": "text",
-        "scale_factor":"10",
-        "audio": "path/to/audio2.mp3",
-        "position":[0,0,0],
-        "rotation":[0,0,0],
-        "crop_dist":"500"
-      }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [7.732096421029775,  45.83925209732755 ]
       },
       "properties": {
@@ -1222,12 +1200,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":[ 9.205827, 45.458657]
+        "coordinates":[ 9.215218420559378, 45.45935757103332]
       },
       "properties": {
         "name": "Pessoa 04",
         "added": false,
-        "label":"BELLA EDGAR :)",
+        "label":"Siediti al sole. Abdica.\n e sii re di te stesso.",
         "font_name":"#RobotoBold",
         "type": "text",
         "scale_factor":"10",
@@ -1243,12 +1221,12 @@
           "type": "Feature",
           "geometry": {
             "type": "Point",
-            "coordinates":[ 9.205827, 45.458657]
+            "coordinates":[ 9.215726580097904, 45.459387450703304]
           },
           "properties": {
             "name": "Pessoa 06",
             "added": false,
-            "label":"BELLA EDGAR :)",
+            "label":"Grandi misteri abitano \nla soglia del mio essere.",
             "font_name":"#RobotoBold",
             "type": "text",
             "scale_factor":"10",
@@ -1262,12 +1240,12 @@
           "type": "Feature",
           "geometry": {
             "type": "Point",
-            "coordinates":[ 9.205827, 45.458657]
+            "coordinates":[ 9.215798264322661, 45.45996882898077]
           },
           "properties": {
             "name": "Pessoa 07",
             "added": false,
-            "label":"BELLA EDGAR :)",
+            "label":"Niente si sa, tutto si immagina.",
             "font_name":"#RobotoBold",
             "type": "text",
             "scale_factor":"10",
@@ -1281,12 +1259,12 @@
           "type": "Feature",
           "geometry": {
             "type": "Point",
-            "coordinates":[ 9.205827, 45.458657]
+            "coordinates":[9.215061626523822, 45.459849373493185]
           },
           "properties": {
             "name": "Pessoa 08",
             "added": false,
-            "label":"BELLA EDGAR :)",
+            "label":"La realtà \n sempre è di più o di meno \n di quello che vogliamo.",
             "font_name":"#RobotoBold",
             "type": "text",
             "scale_factor":"10",
@@ -1299,12 +1277,12 @@
               "type": "Feature",
               "geometry": {
                 "type": "Point",
-                "coordinates":[ 9.205827, 45.458657]
+                "coordinates":[9.215976711815884, 45.461029024126844]
               },
               "properties": {
                 "name": "Pessoa 09",
                 "added": false,
-                "label":"BELLA EDGAR :)",
+                "label":"Ho viaggiato più terre di quelle che ho toccato. \n Ho visto più paesaggi di quelli su cui ho posato gli occhi",
                 "font_name":"#RobotoBold",
                 "type": "text",
                 "scale_factor":"10",
@@ -1318,12 +1296,12 @@
               "type": "Feature",
               "geometry": {
                 "type": "Point",
-                "coordinates":[ 9.205827, 45.458657]
+                "coordinates":[ 9.216384610758626, 45.4612569153881]
               },
               "properties": {
                 "name": "Pessoa 10",
                 "added": false,
-                "label":"BELLA EDGAR :)",
+                "label":"Tutto vale la pena \n Se l'anima non è angusta",
                 "font_name":"#RobotoBold",
                 "type": "text",
                 "scale_factor":"10",
