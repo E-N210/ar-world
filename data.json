@@ -1150,11 +1150,11 @@
         "label":"Non mi preoccupo delle rime.\n Raramente ci sono due alberi uguali \n uno accanto all'altro.",
         "font_name":"#RobotoBold",
         "type": "text",
-        "scale_factor":"10",
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,0,0],
         "rotation":[0,0,0],
-        "crop_dist":"50"
+        "crop_dist":"100"
       }
     },
 
@@ -1170,11 +1170,11 @@
         "label":"E ci sono sempre ragioni per emigrare,\n per chi non è costretto a letto",
         "font_name":"#RobotoBold",
         "type": "text",
-        "scale_factor":"10",
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,0,0],
         "rotation":[0,0,0],
-        "crop_dist":"50"
+        "crop_dist":"100"
       }
     },
     {
@@ -1189,11 +1189,11 @@
         "label":"Quando mi sveglierò dall'essere sveglio?",
         "font_name":"#RobotoBold",
         "type": "text",
-        "scale_factor":"10",
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,0,0],
         "rotation":[0,0,0],
-        "crop_dist":"50"
+        "crop_dist":"100"
       }
     },
     {
@@ -1208,11 +1208,11 @@
         "label":"Siediti al sole. Abdica.\n e sii re di te stesso.",
         "font_name":"#RobotoBold",
         "type": "text",
-        "scale_factor":"10",
+        "scale_factor":"5",
         "audio": "path/to/audio2.mp3",
         "position":[0,0,0],
         "rotation":[0,0,0],
-        "crop_dist":"50"
+        "crop_dist":"100"
       }
     },
 
@@ -1229,11 +1229,11 @@
             "label":"Grandi misteri abitano \nla soglia del mio essere.",
             "font_name":"#RobotoBold",
             "type": "text",
-            "scale_factor":"10",
+            "scale_factor":"5",
             "audio": "path/to/audio2.mp3",
             "position":[0,0,0],
             "rotation":[0,0,0],
-            "crop_dist":"50"
+            "crop_dist":"100"
           }
         },
         {
@@ -1248,11 +1248,11 @@
             "label":"Niente si sa, tutto si immagina.",
             "font_name":"#RobotoBold",
             "type": "text",
-            "scale_factor":"10",
+            "scale_factor":"5",
             "audio": "path/to/audio2.mp3",
             "position":[0,0,0],
             "rotation":[0,0,0],
-            "crop_dist":"50"
+            "crop_dist":"100"
           }
         },
         {
@@ -1267,11 +1267,11 @@
             "label":"La realtà \n sempre è di più o di meno \n di quello che vogliamo.",
             "font_name":"#RobotoBold",
             "type": "text",
-            "scale_factor":"10",
+            "scale_factor":"5",
             "audio": "path/to/audio2.mp3",
             "position":[0,0,0],
             "rotation":[0,0,0],
-            "crop_dist":"50"
+            "crop_dist":"100"
           }
         },    {
               "type": "Feature",
@@ -1285,11 +1285,11 @@
                 "label":"Ho viaggiato più terre di quelle che ho toccato. \n Ho visto più paesaggi di quelli su cui ho posato gli occhi",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
             {
@@ -1304,11 +1304,11 @@
                 "label":"Tutto vale la pena \n Se l'anima non è angusta",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
             {
@@ -1323,11 +1323,11 @@
                 "label":"Nessuno sa ciò che vuole. \n Nessuno sa che anima possiede)",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
             {
@@ -1342,11 +1342,11 @@
                 "label":"Il pensiero deve partire dall'irriducibile.",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1362,11 +1362,11 @@
                 "label":"Mi sono moltiplicato per sentirmi, \n per sentirmi ho dovuto sentire tutto, \n sono strsaripato, non ho fatto altro che traboccarmi",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1382,11 +1382,11 @@
                 "label":"Il poeta è un fingitore. \n Finge così completamente \n che arriva a fingere  che è dolore \n il dolore che davvero sente",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1402,11 +1402,11 @@
                 "label":"Fingere è Conoscersi. ",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1422,11 +1422,11 @@
                 "label":"Schiavi cardiaci delle stelle, \n abbiamo conquistato il mondo \n prima di alzarci dal letto.",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1442,11 +1442,11 @@
                 "label":"Passo e resto, \n come l'Universo",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1462,11 +1462,11 @@
                 "label":"Ognuno di noi è più di uno, \n è molti \n è una prolissità di se stesso",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1482,11 +1482,11 @@
                 "label":"Solo nell'illusione della libertà \n La libertà esiste.",
                 "font_name":"#RobotoBold",
                 "type": "text",
-                "scale_factor":"10",
+                "scale_factor":"5",
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             },
 
@@ -1506,7 +1506,7 @@
                 "audio": "path/to/audio2.mp3",
                 "position":[0,0,0],
                 "rotation":[0,0,0],
-                "crop_dist":"50"
+                "crop_dist":"100"
               }
             }
 
