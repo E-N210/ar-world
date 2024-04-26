@@ -1508,9 +1508,50 @@
                 "rotation":[0,0,0],
                 "crop_dist":"100"
               }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [14.804815285851172,  40.66180203285173 ]
+              },
+              "properties": {
+                "name": "rubber_duck",
+                "added": false,
+                "description": "whale accessible from Montallegro AG Italy",
+                "path": "models/rubber_duck.glb",
+                "type": "gltf",
+                "scale_factor":"0.01",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,-1,0],
+                "rotation":[0,180,0],
+                "light_position":[1000, 2000, 1000],
+                "crop_dist":"50"
+              }
+            },
+
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [14.798493435442648,  40.65881317733527 ]
+              },
+              "properties": {
+                "name": "rubber_duck",
+                "added": false,
+                "description": "whale accessible from Montallegro AG Italy",
+                "path": "models/rubber_duck.glb",
+                "type": "gltf",
+                "scale_factor":"0.01",
+                "audio": "path/to/audio2.mp3",
+                "position":[0,-1,0],
+                "rotation":[0,180,0],
+                "light_position":[1000, 2000, 1000],
+                "crop_dist":"50"
+              }
             }
 
-
-
+            
   ]
 }
